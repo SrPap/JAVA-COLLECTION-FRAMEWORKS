@@ -8,6 +8,7 @@ public class Libreria {
         libreria = new HashSet<>();
     }
 
+
     public boolean agregarLibro(Libro libro) {
         if (libreria.contains(libro)) {
             System.out.println("El libro ya está en el catálogo.");
